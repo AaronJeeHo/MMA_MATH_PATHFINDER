@@ -33,7 +33,6 @@ void Graph::insertFighter(string name){
   std::unordered_map<string,Fighter*>::const_iterator got = fighters.find(name);
 
   if(got == fighters.end()){//if node does not exists in graph
-  
     Fighter* insert = new Fighter(name);//make node
     std::pair<string,Fighter*> keyPair(name,insert);//create its key value pair
     fighters.insert(keyPair);
@@ -66,9 +65,10 @@ int Graph::parseWin(string win){
 }
 
 void Graph::getFighterData(Fighter* name,const char* out_filename){
-  int win_num = name->win_record.at(0) + name->win_record.at(1) +
-  name->win_record.at(2) + name->win_record.at(3);
+  /*int win_num = name->win_record.at(0) + name->win_record.at(1) +
+  name->win_record.at(2) + name->win_record.at(3);*/
 
+  int win_num = name->wins.size();
   int loss_num = name->loss_record.at(0) + name->loss_record.at(1) +
   name->loss_record.at(2) + name->loss_record.at(3);
   int ko_num = name->win_record.at(0);
@@ -99,6 +99,32 @@ void Graph::getFighterData(Fighter* name,const char* out_filename){
   }
 
   writeFile.close();
+}
+
+string victoryResult(Fighter* a){
+  int num_wins = a->wins.size();
+
+  double ko_rate = (a->win_record.at(0))/num_wins;
+  double sub_rate = (a->win_record.at(1))/num_wins;
+  double dec_rate = (a->win_record.at(2))/num_wins;
+
+  vector<double> rates;
+  rates.push_back(ko_rate);
+  rates.push_back(sub_rate);
+  rates.push_back(dec_rate);
+
+  double max = *max_element(rates.begin(), rates.end());
+
+  if(max == ko_rate){
+    return "wins by KO";
+  }
+  else if(max == sub_rate){
+    return "wins by submission";
+  }
+  else{
+    return "wins by decision";
+  }
+
 }
 
 void Graph::getData(const char* in_filename){
@@ -150,49 +176,63 @@ void Graph::getData(const char* in_filename){
   infile.close();
 }
 
-vector<string> Graph::findPath(string a, string b){
 
-  vector<string> returnVec;
-  Fighter* &opponent = fighters.at(b);
+void Graph::findPath(string a, string b, vector<string> &vec){
+
+  Fighter* opponent = fighters.at(b);
 
   for (std::unordered_map<string,Fighter*>::iterator it = fighters.begin(); it!=fighters.end(); ++it){//iterate through nodes
     it->second->lost_to = " ";//did not lose to anyone yet
+    it->second->visited = false;
   }
 
   if(opponent->loss_record.at(0) + opponent->loss_record.at(1) +
   opponent->loss_record.at(2) + opponent->loss_record.at(3) == 0){
-    vector<string> undefeated;//should be a 0 vector
-    return undefeated;
+    //vector<string> undefeated();//should be a 0 vector
+    return;
   }
 
   queue<string> toExplore;
   toExplore.push(a);
   string curr_name;
+  //cout << a << " loop reached this far" << endl;
 
   while(!toExplore.empty()){
+    
 
     curr_name = toExplore.front();
-    cout << curr_name << endl;
-    Fighter* &curr = fighters.at(curr_name);
-
+    Fighter* curr = fighters.at(curr_name);
+      //cout << a << " loop curr: " << curr_name << endl;
     if(!curr_name.compare(b)){
 
       stack<string> fightPath;
 
-      while((curr->lost_to).compare(" ")){
-        fightPath.push(curr->lost_to);
+      while((curr->name).compare(a)){
+        fightPath.push(curr->name);
         curr = fighters.at(curr->lost_to);
       }
+      fightPath.push(curr->name); 
+
       while(!fightPath.empty()){
-        returnVec.push_back(fightPath.top());
+        vec.push_back(fightPath.top());
         fightPath.pop();
       }
-      return returnVec;
+      return;
     } 
 
+    //cout << fighters.at("conor mcgregor")->visited << endl;
     for(int i = 0; i < curr->wins.size(); i++ ){
-      (fighters.at(curr->wins.at(i)))->lost_to = curr_name;
-      toExplore.push(curr->wins.at(i));
+     /* if(!(fighters.at(curr->wins.at(i)))->name.compare("conor mcgregor")){
+        //cout << "found conor" << endl;
+      }*/
+
+      if((fighters.at(curr->wins.at(i)))->visited == false){
+        //cout << a << " loop reached this far" << endl;
+
+          (fighters.at(curr->wins.at(i)))->lost_to = curr_name;
+          (fighters.at(curr->wins.at(i)))->visited = true;
+          toExplore.push(curr->wins.at(i));
+      }
     }
     toExplore.pop();
   } 
@@ -206,31 +246,88 @@ void Graph::printPath(string a, string b, const char* out_filename){
   writeFile.open(out_filename);
   writeFile.close();
 
-  Fighter* &fighter_a = fighters.at(a);
-  Fighter* &fighter_b = fighters.at(b);
+  Fighter* fighter_a = fighters.at(a);
+  Fighter* fighter_b = fighters.at(b);
+
+  writeFile.open(out_filename,std::ios::app);
+  writeFile << "=========FIGHTER STATS=========" << endl;
+  writeFile << endl;
+
+  writeFile.close();
 
   getFighterData(fighter_a,out_filename);
   writeFile.open(out_filename,std::ios::app);
   writeFile << endl;
-  writeFile << "==============VS==============" << endl;
+  writeFile << "--------------VS--------------" << endl;
   writeFile << endl;
   writeFile.close();
   getFighterData(fighter_b,out_filename);
 
   writeFile.open(out_filename,std::ios::app);
   writeFile << endl;
-  vector<string> a_path = findPath(a,b);
+  writeFile << endl;
+  writeFile << "=======PATHS TO VICTORY=======" << endl;
+  writeFile << endl;
+  vector<string> a_path;
+  findPath(a,b,a_path);
 
-  for(int i = 0; i < a_path.size(); i++){
-    writeFile << a_path.at(i) << " ";
+
+  writeFile << a << ":" << endl;
+  writeFile << "------------------------------" << endl;
+
+  if(a_path.size() == 0){
+    writeFile << "no path to victory";
   }
 
+  for(int i = 0; i < a_path.size(); i++){
+    writeFile << a_path.at(i);
+    if(i != a_path.size()-1){
+      writeFile << "->";
+    }
+  }
+  writeFile << endl;
+  writeFile << "------------------------------" << endl;
+
+
+  writeFile << endl;
+  vector<string> b_path;
+  findPath(b,a,b_path);
+
+
+  writeFile << b << ":" << endl;
+  writeFile << "------------------------------" << endl;
+
+  if(b_path.size() == 0){
+    writeFile << "no path to victory";
+  }
+
+  for(int i = 0; i < b_path.size(); i++){
+    writeFile << b_path.at(i);
+    if(i != b_path.size()-1){
+      writeFile << "->";
+    }
+  }
+  writeFile << endl;
+  writeFile << "------------------------------" << endl;
   writeFile.close();
 
+  string winner;
+  string result;
+  if(a_path.size() >= b_path.size()){
+    winner = a;
+    result = victoryResult(fighter_a);
+  }
+  else{
+    winner = b;
+    result = victoryResult(fighter_b);
+  }
 
+  writeFile.open(out_filename,std::ios::app);
+  writeFile <<endl;
+  writeFile << "============RESULT============" << endl;
+  writeFile << winner << " " << result;
+  writeFile.close();
 
-
-  //writeFile.close(); 
 }
 
 

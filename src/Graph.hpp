@@ -6,6 +6,7 @@
 #include <unordered_map>
 #include <set>
 #include <vector>
+#include <string>
 #include "Fighter.hpp"
 
 using namespace std;
@@ -24,11 +25,13 @@ class Graph{
 
     int parseWin(string win);
 
+    string victoryResult(Fighter* a);
+
     void getFighterData(Fighter* name, const char* out_filename);
 
     void printPath(string a, string b, const char* out_filename);
 
-    vector<string>findPath(string a, string b);
+    void findPath(string a, string b, vector<string> &vec);
 };
 
 #endif

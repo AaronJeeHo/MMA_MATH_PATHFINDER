@@ -1,14 +1,28 @@
-Fighter: nate diaz
-19 Wins / 9 Losses
-KO Wins: 4
-Submission Wins: 12
-Decision Wins: 3
+=========FIGHTER STATS=========
 
-==============VS==============
+Fighter: khabib nurmagomedov
+27 Wins / 0 Losses
+KO Wins: 8
+Submission Wins: 9
+Decision Wins: 10
 
-Fighter: jose aldo
-26 Wins / 3 Losses
-KO Wins: 16
+--------------VS--------------
+
+Fighter: conor mcgregor
+21 Wins / 2 Losses
+KO Wins: 18
 Submission Wins: 1
-Decision Wins: 9
+Decision Wins: 2
 
+
+=======PATHS TO VICTORY=======
+
+khabib nurmagomedov:
+------------------------------
+khabib nurmagomedov->conor mcgregor
+------------------------------
+
+conor mcgregor:
+------------------------------
+no path to victory
+------------------------------

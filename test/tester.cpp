@@ -1,5 +1,5 @@
-#define CATCH_CONFIG_MAIN
-#include "catch.hpp"
+//#define CATCH_CONFIG_MAIN
+//#include "catch.hpp"
 
 #include <iostream>
 #include <algorithm>
@@ -32,12 +32,24 @@
     }
 }*/
 
-TEST_CASE("Lets print some fighter stats"){
+/*TEST_CASE("Lets print some fighter stats"){
+    cout << "Getting fighter database..." << endl;
+    Graph g;
+    g.getData("../data/mma_records.txt");
+    cout << "Database Complete" << endl;
+    
+    string b ("jose aldo");
+    string a ("nate diaz");
+
+    g.printPath(a,b,"./out.txt");
+}*/
+
+int main(void){
     Graph g;
     g.getData("../data/mma_records.txt");
     
-    string a ("nate diaz");
-    string b ("jose aldo");
+    string a ("khabib nurmagomedov");
+    string b ("conor mcgregor");
 
     g.printPath(a,b,"./out.txt");
 }
