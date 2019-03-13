@@ -101,12 +101,12 @@ void Graph::getFighterData(Fighter* name,const char* out_filename){
   writeFile.close();
 }
 
-string victoryResult(Fighter* a){
-  int num_wins = a->wins.size();
+void Graph::victoryResult(Fighter* a, string &result){
+  //int num_wins = a->wins.size();
 
-  double ko_rate = (a->win_record.at(0))/num_wins;
-  double sub_rate = (a->win_record.at(1))/num_wins;
-  double dec_rate = (a->win_record.at(2))/num_wins;
+  double ko_rate = (a->win_record.at(0));
+  double sub_rate = (a->win_record.at(1));
+  double dec_rate = (a->win_record.at(2));
 
   vector<double> rates;
   rates.push_back(ko_rate);
@@ -116,13 +116,13 @@ string victoryResult(Fighter* a){
   double max = *max_element(rates.begin(), rates.end());
 
   if(max == ko_rate){
-    return "wins by KO";
+    result = "wins by KO";
   }
   else if(max == sub_rate){
-    return "wins by submission";
+    result =  "wins by submission";
   }
   else{
-    return "wins by decision";
+    result = "wins by decision";
   }
 
 }
@@ -286,7 +286,8 @@ void Graph::printPath(string a, string b, const char* out_filename){
     }
   }
   writeFile << endl;
-  writeFile << "------------------------------" << endl;
+  writeFile << endl;
+  //writeFile << "------------------------------" << endl;
 
 
   writeFile << endl;
@@ -308,25 +309,37 @@ void Graph::printPath(string a, string b, const char* out_filename){
     }
   }
   writeFile << endl;
-  writeFile << "------------------------------" << endl;
+  writeFile << endl;
+  //writeFile << "------------------------------" << endl;
   writeFile.close();
 
   string winner;
   string result;
-  if(a_path.size() >= b_path.size()){
+  if(a_path.size() == 0){
+    winner = b;
+    victoryResult(fighter_b,result);
+  }
+  else if(b_path.size() == 0){
     winner = a;
-    result = victoryResult(fighter_a);
+    victoryResult(fighter_a,result);
+  }
+  else if(a_path.size() <= b_path.size()){
+    winner = a;
+    victoryResult(fighter_a,result);
   }
   else{
     winner = b;
-    result = victoryResult(fighter_b);
+    victoryResult(fighter_b,result);
   }
 
   writeFile.open(out_filename,std::ios::app);
   writeFile <<endl;
   writeFile << "============RESULT============" << endl;
+  writeFile << endl;
   writeFile << winner << " " << result;
   writeFile.close();
+
+  cout << "Analysis Finished ";
 
 }
 

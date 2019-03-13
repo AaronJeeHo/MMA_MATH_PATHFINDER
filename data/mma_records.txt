@@ -5437,7 +5437,6 @@ Daniel Cormier	Gary Frazier	TKO (punches)	2
 Daniel Cormier	Jason Riley	TKO (punches)	1
 Daniel Cormier	Jeff Monson	Decision (unanimous)	3
 Daniel Cormier	John Devine	KO (punch)	1
-Daniel Cormier	Jon Jones	NC (overturned)	3
 Daniel Cormier	Josh Barnett	Decision (unanimous)	5
 Daniel Cormier	Lucas Browne	TKO (punches)	1
 Daniel Cormier	Patrick Cummins	TKO (punches)	1
@@ -6171,7 +6170,7 @@ Deividas Taurosevicius	Ronnie Rogers	Submission (rear-naked choke)	2
 Deividas Taurosevicius	Savant Young	Decision (unanimous)	3
 Deividas Taurosevicius	Tony Barber	Submission (rear-naked choke)	1
 Deividas Taurosevicius	Zac George	Submission (arm-triangle choke)	1
-Demetrious Johnson  	Ali Bagautinov	Decision (unanimous)	5
+Demetrious Johnson      Ali Bagautinov	Decision (unanimous)	5
 Demetrious Johnson  	Brandon Fieds	KO (punch)	1
 Demetrious Johnson  	Chris Cariaso	Submission (kimura)	2
 Demetrious Johnson  	Damacio Page	Submission (guillotine choke)	3

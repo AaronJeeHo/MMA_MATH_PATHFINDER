@@ -25,7 +25,7 @@ class Graph{
 
     int parseWin(string win);
 
-    string victoryResult(Fighter* a);
+    void victoryResult(Fighter* a,string &result);
 
     void getFighterData(Fighter* name, const char* out_filename);
 

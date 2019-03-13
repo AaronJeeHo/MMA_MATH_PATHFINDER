@@ -1,28 +1,32 @@
 =========FIGHTER STATS=========
 
-Fighter: khabib nurmagomedov
-27 Wins / 0 Losses
-KO Wins: 8
-Submission Wins: 9
-Decision Wins: 10
+Fighter: jon jones
+24 Wins / 1 Losses
+KO Wins: 10
+Submission Wins: 6
+Decision Wins: 8
 
 --------------VS--------------
 
-Fighter: conor mcgregor
-21 Wins / 2 Losses
-KO Wins: 18
-Submission Wins: 1
-Decision Wins: 2
+Fighter: nate diaz
+19 Wins / 9 Losses
+KO Wins: 4
+Submission Wins: 12
+Decision Wins: 3
 
 
 =======PATHS TO VICTORY=======
 
-khabib nurmagomedov:
+jon jones:
 ------------------------------
-khabib nurmagomedov->conor mcgregor
-------------------------------
+jon jones->lyoto machida->b.j. penn->joe stevenson->nate diaz
 
-conor mcgregor:
+
+nate diaz:
 ------------------------------
-no path to victory
-------------------------------
+nate diaz->rory markham->jason guida->marvin eastman->quinton jackson->matt hamill->jon jones
+
+
+============RESULT============
+
+jon jones wins by KO

@@ -48,8 +48,8 @@ int main(void){
     Graph g;
     g.getData("../data/mma_records.txt");
     
-    string a ("khabib nurmagomedov");
-    string b ("conor mcgregor");
+    string a ("jon jones");
+    string b ("nate diaz");
 
     g.printPath(a,b,"./out.txt");
 }
