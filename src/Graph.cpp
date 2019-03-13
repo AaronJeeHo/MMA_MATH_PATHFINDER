@@ -102,11 +102,19 @@ void Graph::getFighterData(Fighter* name,const char* out_filename){
 }
 
 void Graph::victoryResult(Fighter* a, string &result){
-  //int num_wins = a->wins.size();
+  int num_wins = a->wins.size();
 
   double ko_rate = (a->win_record.at(0));
   double sub_rate = (a->win_record.at(1));
   double dec_rate = (a->win_record.at(2));
+  double avg_round = (a->rounds)/num_wins;
+
+  if(avg_round > 4.5){
+    avg_round = 5;
+  }
+  else{
+    avg_round = (int)avg_round;
+  }
 
   vector<double> rates;
   rates.push_back(ko_rate);
@@ -116,10 +124,12 @@ void Graph::victoryResult(Fighter* a, string &result){
   double max = *max_element(rates.begin(), rates.end());
 
   if(max == ko_rate){
-    result = "wins by KO";
+    result = "wins by KO in round ";
+    result = result + to_string(avg_round);
   }
   else if(max == sub_rate){
-    result =  "wins by submission";
+    result =  "wins by submission in round ";
+    result = result + to_string(avg_round);
   }
   else{
     result = "wins by decision";
@@ -153,6 +163,7 @@ void Graph::getData(const char* in_filename){
         string opponent = record.at(1);
         int win_method = parseWin(record.at(2));
         //int round_won = stoi(record.at(3));
+
         std::transform(name.begin(), name.end(), name.begin(), ::tolower);
         std::transform(opponent.begin(), opponent.end(), opponent.begin(), ::tolower);
 
@@ -165,7 +176,7 @@ void Graph::getData(const char* in_filename){
         currFighter->win_record.at(win_method) +=1;//set fighter wins
         oppFighter->loss_record.at(win_method) +=1;//set opponent losses
 
-
+        //currFighter->rounds += round_won;
     }
 
   if (!infile.eof()) {
@@ -339,7 +350,7 @@ void Graph::printPath(string a, string b, const char* out_filename){
   writeFile << winner << " " << result;
   writeFile.close();
 
-  cout << "Analysis Finished ";
+  cout << "Analysis finished for: " << a << " vs " << b << endl;
 
 }
 

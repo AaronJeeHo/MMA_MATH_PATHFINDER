@@ -1,0 +1,32 @@
+=========FIGHTER STATS=========
+
+Fighter: conor mcgregor
+21 Wins / 2 Losses
+KO Wins: 18
+Submission Wins: 1
+Decision Wins: 2
+
+--------------VS--------------
+
+Fighter: nate diaz
+19 Wins / 9 Losses
+KO Wins: 4
+Submission Wins: 12
+Decision Wins: 3
+
+
+=======PATHS TO VICTORY=======
+
+conor mcgregor:
+------------------------------
+conor mcgregor->nate diaz
+
+
+nate diaz:
+------------------------------
+nate diaz->conor mcgregor
+
+
+============RESULT============
+
+conor mcgregor wins by KO in round 0.000000
