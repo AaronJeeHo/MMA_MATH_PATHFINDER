@@ -1,6 +1,5 @@
 /*
 *Aaron Ho
-*A12673241
 *CSE100 Alvarado PA3
 *3-6-19
 */
@@ -29,6 +28,7 @@ int main(int argc, char* argv[]) {
 
     Graph g;
     g.getData("./data/mma_records.txt");
+    //g.getData("./data/lightweight.txt"); //USE THIS TO MAKE A GRAPH OF LIGHTWEIGHTS ONLY
 
     string fighter_a = argv[1];
     string fighter_b = argv[2];

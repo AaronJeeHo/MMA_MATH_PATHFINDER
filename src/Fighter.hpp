@@ -10,7 +10,6 @@ class Fighter {
 public:
     string name;
     string lost_to;
-    int rounds;
     vector<string> wins;
     vector<int> win_record;
     vector<int> loss_record;
@@ -18,7 +17,7 @@ public:
 
 
     Fighter(string name): name(name), wins(0), win_record(4,0),loss_record(4,0),lost_to(" ")
-    ,visited(0), rounds(0){
+    ,visited(0){
         
     }
 

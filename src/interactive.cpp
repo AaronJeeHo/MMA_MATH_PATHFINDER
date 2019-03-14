@@ -26,7 +26,7 @@ int main(int argc, char* argv[]) {
 
     Graph g;
     g.getData("./data/mma_records.txt");
-    char* output_filename = "./fight_results.txt";
+    char* output_filename = "./output.txt";
 
     string fighter_a;
     string fighter_b;
@@ -49,5 +49,5 @@ int main(int argc, char* argv[]) {
 
     g.printPath(fighter_a,fighter_b,output_filename);
 
-    cout << "Open fight_results.txt" << endl;
+    cout << "Open output.txt" << endl;
 }

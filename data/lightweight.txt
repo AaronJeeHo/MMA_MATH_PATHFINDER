@@ -1,0 +1,253 @@
+Khabib Nurmagomedov	Abel Trujillo	Decision (unanimous)	3
+Khabib Nurmagomedov	Al Iaquinta	Decision (unanimous)	5
+Khabib Nurmagomedov	Alexander Agafonov	TKO (corner stoppage)	2
+Khabib Nurmagomedov	Ali Bagov	Decision (unanimous)	2
+Khabib Nurmagomedov	Arymarcel Santos	TKO (punches)	1
+Khabib Nurmagomedov	Ashot Shaginyan	TKO (punches)	1
+Khabib Nurmagomedov	Conor McGregor	Submission (neck crank)	4
+Khabib Nurmagomedov	Darrell Horcher	TKO (punches)	2
+Khabib Nurmagomedov	Edson Barboza	Decision (unanimous)	3
+Khabib Nurmagomedov	Eldar Eldarov	TKO (punches)	2
+Khabib Nurmagomedov	Gleison Tibau	Decision (unanimous)	3
+Khabib Nurmagomedov	Kadzhik Abadzhyan	Submission (triangle choke)	1
+Khabib Nurmagomedov	Kamal Shalorus	Submission (rear-naked choke)	3
+Khabib Nurmagomedov	Khamiz Mamedov	Submission (triangle choke)	1
+Khabib Nurmagomedov	Magomed Magomedov	Decision (unanimous)	2
+Khabib Nurmagomedov	Michael Johnson	Submission (kimura)	3
+Khabib Nurmagomedov	Pat Healy	Decision (unanimous)	3
+Khabib Nurmagomedov	Rafael dos Anjos	Decision (unanimous)	3
+Khabib Nurmagomedov	Ramazan Kurbanismailov	Decision (unanimous)	2
+Khabib Nurmagomedov	Said Akhmed	TKO (punches)	1
+Khabib Nurmagomedov	Said Khalilov	Submission (kimura)	1
+Khabib Nurmagomedov	Shahbulat Shamhalaev	Submission (armbar)	1
+Khabib Nurmagomedov	Shamil Abdulkerimov	Decision (unanimous)	2
+Khabib Nurmagomedov	Thiago Tavares	KO (punches and elbows)	1
+Khabib Nurmagomedov	Vadim Sandulskiy	Submission (triangle choke)	1
+Khabib Nurmagomedov	Vitaliy Ostroskiy	TKO (punches)	1
+Khabib Nurmagomedov	Vusal Bayramov	Submission (triangle choke)	1
+Conor McGregor	Aaron Jahnsen	TKO (punches)	1
+Conor McGregor	Artur Sowinski	TKO (punches)	2
+Conor McGregor	Chad Mendes	TKO (punches)	2
+Conor McGregor	Connor Dillon	TKO (corner stoppage)	1
+Conor McGregor	Dave Hill	Submission (rear-naked choke)	2
+Conor McGregor	Dennis Siver	TKO (punches)	2
+Conor McGregor	Diego Brandao	TKO (punches)	1
+Conor McGregor	Dustin Poirier	TKO (punches)	1
+Conor McGregor	Eddie Alvarez	TKO (punches)	2
+Conor McGregor	Gary Morris	TKO (punches)	2
+Conor McGregor	Hugh Brady	TKO (punches)	1
+Conor McGregor	Ivan Buchinger	KO (punch)	1
+Conor McGregor	Jose Aldo	KO (punch)	1
+Conor McGregor	Marcus Brimage	TKO (punches)	1
+Conor McGregor	Max Holloway	Decision (unanimous)	3
+Conor McGregor	Mike Wood	KO (punches)	1
+Conor McGregor	Mo Taylor	TKO (punches)	1
+Conor McGregor	Nate Diaz	Decision (majority)	5
+Conor McGregor	Paddy Doherty	KO (punch)	1
+Conor McGregor	Stephen Bailey	TKO (punches)	1
+Conor McGregor	Steve O'Keefe	KO (elbows)	1
+Tony Ferguson   Aaron Riley	TKO (doctor stoppage)	1
+Tony Ferguson   Abel Trujillo	Submission (rear-naked choke)	2
+Tony Ferguson   Anthony Pettis	TKO (corner stoppage)	2
+Tony Ferguson   Brandon Adams	TKO (punches)	2
+Tony Ferguson   Brock Jardine	TKO (punches)	4
+Tony Ferguson   Chris Kennedy	TKO (doctor stoppage)	1
+Tony Ferguson   Chuck O'Neil	TKO (punches)	3
+Tony Ferguson   Daniel Hernandez	TKO (punches)	1
+Tony Ferguson   Danny Castillo	Decision (split)	3
+Tony Ferguson   David Gardner	TKO (punches)	2
+Tony Ferguson   Devin Benjamin	TKO (punches and elbows)	1
+Tony Ferguson   Edson Barboza	Submission (D'Arce choke)	2
+Tony Ferguson   Frank Park	Submission (mounted triangle armbar)	1
+Tony Ferguson   Gleison Tibau	Submission (rear-naked choke)	1
+Tony Ferguson   James Fanshier	Decision (unanimous)	3
+Tony Ferguson   Joe Schilling	Submission (Von Flue choke)	2
+Tony Ferguson   Josh Thomson	Decision (unanimous)	3
+Tony Ferguson   Justin Edwards	KO (upkick)	1
+Tony Ferguson   Katsunori Kikuno	KO (punch)	1
+Tony Ferguson   Kevin Lee	Submission (triangle choke)	3
+Tony Ferguson   Lando Vannata	Submission (D'Arce choke)	2
+Tony Ferguson   Mike Rio	Submission (D'Arce choke)	1
+Tony Ferguson   Rafael dos Anjos	Decision (unanimous)	5
+Tony Ferguson   Ramsey Nijem	KO (punch)	1
+Tony Ferguson   Ryan McGillivray	TKO (punches)	1
+Tony Ferguson   Steve Avalos	TKO (punches and elbows)	2
+Tony Ferguson   Yves Edwards	Decision (unanimous)	3
+Dustin Poirier	Aaron Suarez	KO (punches)	1
+Dustin Poirier	Akira Corassani	TKO (punches)	2
+Dustin Poirier	Anthony Pettis	TKO (rib injury)	3
+Dustin Poirier	Bobby Green	KO (punches)	1
+Dustin Poirier	Carlos Diego Ferreira	KO (punches)	1
+Dustin Poirier	Daniel Watts	KO (punches)	1
+Dustin Poirier	Derek Gauthier	KO (punch)	1
+Dustin Poirier	Derek Krantz	Submission (armbar)	2
+Dustin Poirier	Diego Brandao	KO (punches)	1
+Dustin Poirier	Eddie Alvarez	TKO (punches)	2
+Dustin Poirier	Erik Koch	Decision (unanimous)	3
+Dustin Poirier	Jason Young	Decision (unanimous)	3
+Dustin Poirier	Jim Miller	Decision (majority)	3
+Dustin Poirier	Joe Torrez	TKO (punches)	1
+Dustin Poirier	Jonathan Brookins	Submission (D'Arce choke)	1
+Dustin Poirier	Joseph Duffy	Decision (unanimous)	3
+Dustin Poirier	Josh Grispi	Decision (unanimous)	3
+Dustin Poirier	Justin Gaethje	TKO (punches)	4
+Dustin Poirier	Max Holloway	Submission (mounted triangle armbar)	1
+Dustin Poirier	Nate Jolly	Submission (armbar)	2
+Dustin Poirier	Pablo Garza	Submission (D'Arce choke)	2
+Dustin Poirier	Ronny Lis	Technical Submission (armbar)	1
+Dustin Poirier	Yancy Medeiros	TKO (body kick and punches)	1
+Dustin Poirier	Zach Micklewright	TKO (punches)	1
+Eddie Alvarez	Aaron Riley	KO (punches)	1
+Eddie Alvarez	Adam Fearon	Submission (punches)	1
+Eddie Alvarez	Andre Amade	TKO (punches)	1
+Eddie Alvarez	Anthony Ladonna	KO (punch)	1
+Eddie Alvarez	Anthony Pettis	Decision (split)	3
+Eddie Alvarez	Chris Schlesinger	Submission (punches)	1
+Eddie Alvarez	Daisuke Hanazawa	TKO (punches)	1
+Eddie Alvarez	Danil Veselov	TKO (punches)	2
+Eddie Alvarez	Derrick Noble	KO (punches)	1
+Eddie Alvarez	Eric Reynolds	Submission (rear-naked choke)	3
+Eddie Alvarez	Gilbert Melendez	Decision (split)	3
+Eddie Alvarez	Greg Loughran	Submission (guillotine choke)	1
+Eddie Alvarez	Hidenobu Koike	TKO (punches)	1
+Eddie Alvarez	Joachim Hansen	Decision (unanimous)	2
+Eddie Alvarez	Josh Neer	Technical Submission (standing rear-naked choke)	2
+Eddie Alvarez	Justin Gaethje	KO (knee)	3
+Eddie Alvarez	Katsunori Kikuno	Submission (arm-triangle choke)	2
+Eddie Alvarez	Matt Lee	Decision (unanimous)	3
+Eddie Alvarez	Michael Chandler	Decision (split)	5
+Eddie Alvarez	Pat Curran	Decision (unanimous)	5
+Eddie Alvarez	Patricky Freire	KO (head kick and punches)	1
+Eddie Alvarez	Rafael dos Anjos	TKO (punches)	1
+Eddie Alvarez	Roger Huerta	TKO (doctor stoppage)	2
+Eddie Alvarez	Ross Ebanez	KO (punches)	2
+Eddie Alvarez	Scott Henze	TKO (corner stoppage)	1
+Eddie Alvarez	Seichi Ikemoto	TKO (punches)	2
+Eddie Alvarez	Shinya Aoki	TKO (punches)	1
+Eddie Alvarez	Tatsuya Kawajiri	TKO (punches)	1
+Eddie Alvarez	Toby Imada	Submission (rear-naked choke)	2
+Al Iaquinta	Andy Ogle	TKO (elbow and punches)	1
+Al Iaquinta	Diego Sanchez	KO (punches)	1
+Al Iaquinta	Gabriel Miglioli	Decision (split)	3
+Al Iaquinta	Gabriel Miglioli	TKO (punches)	1
+Al Iaquinta	Joe Lauzon	TKO (punches)	2
+Al Iaquinta	Jon Tuck	Decision (unanimous)	1
+Al Iaquinta	Jorge Masvidal	Decision (split)	3
+Al Iaquinta	Joshua Key	TKO (punches)	1
+Al Iaquinta	Kevin Lee	Decision (unanimous)	3
+Al Iaquinta	Kevin Lee	Decision (unanimous)	5
+Al Iaquinta	Mervin Rodriguez	Submission (anaconda choke)	1
+Al Iaquinta	Myles Jury	Decision (split)	3
+Al Iaquinta	Piotr Hallmann	Decision (unanimous)	3
+Al Iaquinta	Rodrigo Damm	TKO (punches and elbows)	3
+Al Iaquinta	Ross Pearson	TKO (punches)	2
+Al Iaquinta	Ryan Couture	Decision (unanimous)	3
+Al Iaquinta	Tim Sylvester	KO (punch)	1
+Al Iaquinta	Vinc Pichel	Decision (unanimous)	3
+Benson Henderson	Allen Williams	TKO (punches)	1
+Benson Henderson	Anthony Njokuani	Submission (guillotine choke)	2
+Benson Henderson	Brandon Thatch	Submission (rear-naked choke)	4
+Benson Henderson	Bryan Corley	Submission (rear-naked choke)	1
+Benson Henderson	Clay Guida	Decision (unanimous)	3
+Benson Henderson	Dan Gregary	Submission (punches)	1
+Benson Henderson	David Dagloria	Submission (punches)	1
+Benson Henderson	Diego Saraiva	Decision (unanimous)	3
+Benson Henderson	Donald Cerrone	Decision (unanimous)	5
+Benson Henderson	Donald Cerrone	Submission (guillotine choke)	1
+Benson Henderson	Frankie Edgar	Decision (split)	5
+Benson Henderson	Frankie Edgar	Decision (unanimous)	5
+Benson Henderson	Gilbert Melendez	Decision (split)	5
+Benson Henderson	Jamie Varner	Submission (guillotine choke)	3
+Benson Henderson	Jim Miller	Decision (unanimous)	3
+Benson Henderson	Jorge Masvidal	Decision (split)	5
+Benson Henderson	Josh Thomson	Decision (split)	5
+Benson Henderson	Mark Bocek	Decision (unanimous)	3
+Benson Henderson	Mike Maestas	Submission (rear-naked choke)	3
+Benson Henderson	Nate Diaz	Decision (unanimous)	5
+Benson Henderson	Patricio Freire	TKO (leg injury)	2
+Benson Henderson	Ricardo Tirloni	Submission (guillotine choke)	2
+Benson Henderson	Roger Huerta	Submission (guillotine choke)	2
+Benson Henderson	Rustam Khabilov	Submission (rear-naked choke)	4
+Benson Henderson	Saad Awad	Decision (unanimous)	3
+Benson Henderson	Shane Roller	TKO (punches)	1
+Edson Barboza	Aaron Steadman	TKO (flying knee and punches)	1
+Edson Barboza	Anthony Njokuani	Decision (unanimous)	3
+Edson Barboza	Anthony Pettis	Decision (unanimous)	3
+Edson Barboza	Beneil Dariush	KO (flying knee)	2
+Edson Barboza	Bobby Green	Decision (unanimous)	3
+Edson Barboza	Dan Hooker	TKO (punch to the body)	3
+Edson Barboza	Danny Castillo	Decision (majority)	3
+Edson Barboza	Evan Dunham	TKO (body kick and punches)	1
+Edson Barboza	Gilbert Melendez	Decision (unanimous)	3
+Edson Barboza	Jose Figueroa	KO (punch)	1
+Edson Barboza	Lee King	KO (punches)	2
+Edson Barboza	Lee King	Submission (anaconda choke)	1
+Edson Barboza	Lucas Martins	TKO (punches)	1
+Edson Barboza	Marcelo Guidici	TKO (leg kicks)	1
+Edson Barboza	Mike Lullo	TKO (leg kicks)	3
+Edson Barboza	Nabih Barakat	KO (punches)	1
+Edson Barboza	Paul Felder	Decision (unanimous)	3
+Edson Barboza	Rafaello Oliveira	TKO (leg kicks)	2
+Edson Barboza	Ross Pearson	Decision (split)	3
+Edson Barboza	Terry Etim	KO (wheel kick)	3
+Nate Diaz	Alejandro Garcia	Submission (triangle choke)	3
+Nate Diaz	Alvin Robinson	Submission (triangle choke)	1
+Nate Diaz	Conor McGregor	Submission (rear-naked choke)	2
+Nate Diaz	Dennis Davis	Submission (americana)	1
+Nate Diaz	Donald Cerrone	Decision (unanimous)	3
+Nate Diaz	Gil Rael	TKO (punches)	1
+Nate Diaz	Gray Maynard	TKO (punches)	1
+Nate Diaz	Jim Miller	Submission (guillotine choke)	2
+Nate Diaz	Joe Hurley	Submission (triangle choke)	2
+Nate Diaz	Josh Neer	Decision (split)	3
+Nate Diaz	Junior Assuncao	Submission (guillotine choke)	1
+Nate Diaz	Kurt Pellegrino	Submission (triangle choke)	2
+Nate Diaz	Manvel Gamburyan	Submission (shoulder injury)	2
+Nate Diaz	Marcus Davis	Technical Submission (guillotine choke)	3
+Nate Diaz	Melvin Guillard	Submission (guillotine choke)	2
+Nate Diaz	Michael Johnson	Decision (unanimous)	3
+Nate Diaz	Rory Markham	TKO (punches)	1
+Nate Diaz	Takanori Gomi	Submission (armbar)	1
+Nate Diaz	Tony Juares	TKO (punches)	1
+Anthony Pettis	Alex Karalexis	Submission (triangle choke)	2
+Anthony Pettis	Benson Henderson	Decision (unanimous)	5
+Anthony Pettis	Benson Henderson	Submission (armbar)	1
+Anthony Pettis	Charles Oliveira	Submission (guillotine choke)	3
+Anthony Pettis	Danny Castillo	KO (head kick and punches)	1
+Anthony Pettis	Donald Cerrone	KO (kick to the body)	1
+Anthony Pettis	Gabe Walbridge	TKO (punches)	1
+Anthony Pettis	George Barrazza	TKO (body kick and punches)	1
+Anthony Pettis	Gilbert Melendez	Submission (guillotine choke)	2
+Anthony Pettis	Jay Ellis	Submission (punches)	1
+Anthony Pettis	Jeremy Stephens	Decision (split)	3
+Anthony Pettis	Jim Miller	Decision (unanimous)	3
+Anthony Pettis	Joe Lauzon	KO (head kick and punches)	1
+Anthony Pettis	Lonny Amdahl	Submission (injury)	1
+Anthony Pettis	Michael Chiesa	Submission (triangle armbar)	2
+Anthony Pettis	Michael Skinner	Submission (punches)	1
+Anthony Pettis	Mike Campbell	Submission (triangle choke)	1
+Anthony Pettis	Mike Lambrecht	KO (head kick)	1
+Anthony Pettis	Shane Roller	Submission (triangle choke)	3
+Anthony Pettis	Sherron Leggett	Decision (split)	3
+Anthony Pettis	Tom Erspamer	TKO (punches)	1
+Anthony Pettis	Alex Karalexis	Submission (triangle choke)	2
+Anthony Pettis	Benson Henderson	Decision (unanimous)	5
+Anthony Pettis	Benson Henderson	Submission (armbar)	1
+Anthony Pettis	Charles Oliveira	Submission (guillotine choke)	3
+Anthony Pettis	Danny Castillo	KO (head kick and punches)	1
+Anthony Pettis	Donald Cerrone	KO (kick to the body)	1
+Anthony Pettis	Gabe Walbridge	TKO (punches)	1
+Anthony Pettis	George Barrazza	TKO (body kick and punches)	1
+Anthony Pettis	Gilbert Melendez	Submission (guillotine choke)	2
+Anthony Pettis	Jay Ellis	Submission (punches)	1
+Anthony Pettis	Jeremy Stephens	Decision (split)	3
+Anthony Pettis	Jim Miller	Decision (unanimous)	3
+Anthony Pettis	Joe Lauzon	KO (head kick and punches)	1
+Anthony Pettis	Lonny Amdahl	Submission (injury)	1
+Anthony Pettis	Michael Chiesa	Submission (triangle armbar)	2
+Anthony Pettis	Michael Skinner	Submission (punches)	1
+Anthony Pettis	Mike Campbell	Submission (triangle choke)	1
+Anthony Pettis	Mike Lambrecht	KO (head kick)	1
+Anthony Pettis	Shane Roller	Submission (triangle choke)	3
+Anthony Pettis	Sherron Leggett	Decision (split)	3
+Anthony Pettis	Tom Erspamer	TKO (punches)	1

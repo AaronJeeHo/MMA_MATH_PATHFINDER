@@ -1,0 +1,1 @@
+./build/part3 "conor mcgregor" "anthony pettis" ./output.txt

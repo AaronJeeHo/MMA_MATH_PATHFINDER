@@ -65,9 +65,6 @@ int Graph::parseWin(string win){
 }
 
 void Graph::getFighterData(Fighter* name,const char* out_filename){
-  /*int win_num = name->win_record.at(0) + name->win_record.at(1) +
-  name->win_record.at(2) + name->win_record.at(3);*/
-
   int win_num = name->wins.size();
   int loss_num = name->loss_record.at(0) + name->loss_record.at(1) +
   name->loss_record.at(2) + name->loss_record.at(3);
@@ -107,14 +104,6 @@ void Graph::victoryResult(Fighter* a, string &result){
   double ko_rate = (a->win_record.at(0));
   double sub_rate = (a->win_record.at(1));
   double dec_rate = (a->win_record.at(2));
-  double avg_round = (a->rounds)/num_wins;
-
-  if(avg_round > 4.5){
-    avg_round = 5;
-  }
-  else{
-    avg_round = (int)avg_round;
-  }
 
   vector<double> rates;
   rates.push_back(ko_rate);
@@ -124,12 +113,10 @@ void Graph::victoryResult(Fighter* a, string &result){
   double max = *max_element(rates.begin(), rates.end());
 
   if(max == ko_rate){
-    result = "wins by KO in round ";
-    result = result + to_string(avg_round);
+    result = "wins by KO";
   }
   else if(max == sub_rate){
-    result =  "wins by submission in round ";
-    result = result + to_string(avg_round);
+    result =  "wins by submission";
   }
   else{
     result = "wins by decision";
@@ -162,7 +149,6 @@ void Graph::getData(const char* in_filename){
         string name = record.at(0);
         string opponent = record.at(1);
         int win_method = parseWin(record.at(2));
-        //int round_won = stoi(record.at(3));
 
         std::transform(name.begin(), name.end(), name.begin(), ::tolower);
         std::transform(opponent.begin(), opponent.end(), opponent.begin(), ::tolower);
@@ -175,8 +161,6 @@ void Graph::getData(const char* in_filename){
         currFighter->wins.push_back(opponent);//insert opponent name
         currFighter->win_record.at(win_method) +=1;//set fighter wins
         oppFighter->loss_record.at(win_method) +=1;//set opponent losses
-
-        //currFighter->rounds += round_won;
     }
 
   if (!infile.eof()) {
@@ -199,21 +183,18 @@ void Graph::findPath(string a, string b, vector<string> &vec){
 
   if(opponent->loss_record.at(0) + opponent->loss_record.at(1) +
   opponent->loss_record.at(2) + opponent->loss_record.at(3) == 0){
-    //vector<string> undefeated();//should be a 0 vector
     return;
   }
 
   queue<string> toExplore;
   toExplore.push(a);
   string curr_name;
-  //cout << a << " loop reached this far" << endl;
 
   while(!toExplore.empty()){
     
 
     curr_name = toExplore.front();
     Fighter* curr = fighters.at(curr_name);
-      //cout << a << " loop curr: " << curr_name << endl;
     if(!curr_name.compare(b)){
 
       stack<string> fightPath;
@@ -231,15 +212,8 @@ void Graph::findPath(string a, string b, vector<string> &vec){
       return;
     } 
 
-    //cout << fighters.at("conor mcgregor")->visited << endl;
     for(int i = 0; i < curr->wins.size(); i++ ){
-     /* if(!(fighters.at(curr->wins.at(i)))->name.compare("conor mcgregor")){
-        //cout << "found conor" << endl;
-      }*/
-
       if((fighters.at(curr->wins.at(i)))->visited == false){
-        //cout << a << " loop reached this far" << endl;
-
           (fighters.at(curr->wins.at(i)))->lost_to = curr_name;
           (fighters.at(curr->wins.at(i)))->visited = true;
           toExplore.push(curr->wins.at(i));
@@ -298,7 +272,6 @@ void Graph::printPath(string a, string b, const char* out_filename){
   }
   writeFile << endl;
   writeFile << endl;
-  //writeFile << "------------------------------" << endl;
 
 
   writeFile << endl;
@@ -321,7 +294,6 @@ void Graph::printPath(string a, string b, const char* out_filename){
   }
   writeFile << endl;
   writeFile << endl;
-  //writeFile << "------------------------------" << endl;
   writeFile.close();
 
   string winner;
